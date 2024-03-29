@@ -1,0 +1,251 @@
+# Compile of synchronous_fifo.v failed with 2 errors.
+# Compile of synchronous_fifo.v was successful.
+vsim work.synchronous_fifo
+# vsim work.synchronous_fifo 
+# Start time: 14:44:14 on Mar 29,2024
+# Loading work.synchronous_fifo
+add wave -position insertpoint sim:/synchronous_fifo/*
+quit -sim
+# End time: 14:51:40 on Mar 29,2024, Elapsed time: 0:07:26
+# Errors: 0, Warnings: 3
+# Compile of fifo_tb.v was successful.
+# Compile of fifo_tb.v was successful.
+# Compile of fifo_tb.v was successful.
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 15:41:08 on Mar 29,2024
+# Loading work.fifo_tb
+# Loading work.synchronous_fifo
+# ** Error: (vsim-3043) Unresolved reference to 'CLK'.
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb File: C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Synchronous FIFO/fifo_tb.v Line: 33
+# Error loading design
+# End time: 15:41:09 on Mar 29,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 5
+# Compile of fifo_tb.v was successful.
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 15:41:31 on Mar 29,2024
+# Loading work.fifo_tb
+# Loading work.synchronous_fifo
+# ** Error: (vsim-3043) Unresolved reference to 'CLK'.
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb File: C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Synchronous FIFO/fifo_tb.v Line: 35
+# Error loading design
+# End time: 15:41:32 on Mar 29,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of fifo_tb.v was successful.
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 15:42:50 on Mar 29,2024
+# Loading work.fifo_tb
+# Loading work.synchronous_fifo
+# ** Error: (vsim-3043) Unresolved reference to 'CLK'.
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb File: C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Synchronous FIFO/fifo_tb.v Line: 35
+# Error loading design
+# End time: 15:42:51 on Mar 29,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of fifo_tb.v was successful.
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 15:45:30 on Mar 29,2024
+# Loading work.fifo_tb
+# Loading work.synchronous_fifo
+# ** Error: (vsim-3043) Unresolved reference to 'CLK'.
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb File: C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Synchronous FIFO/fifo_tb.v Line: 35
+# Error loading design
+# End time: 15:45:31 on Mar 29,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 3
+# Compile of fifo_tb.v was successful.
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 15:45:46 on Mar 29,2024
+# Loading sv_std.std
+# Loading work.fifo_tb
+# Loading work.synchronous_fifo
+# ** Error: (vsim-3043) Unresolved reference to 'CLK'.
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb File: C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Synchronous FIFO/fifo_tb.v Line: 35
+# Error loading design
+# End time: 15:45:47 on Mar 29,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 3
+# Compile of fifo_tb.v was successful.
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 15:46:01 on Mar 29,2024
+# Loading sv_std.std
+# Loading work.fifo_tb
+# Loading work.synchronous_fifo
+# ** Error: (vsim-3043) Unresolved reference to 'CLK'.
+#    Time: 0 ns  Iteration: 0  Instance: /fifo_tb File: C:/Users/HARSHITH/Desktop/Verilog/Clock Domain Crossing/Synchronous FIFO/fifo_tb.v Line: 35
+# Error loading design
+# End time: 15:46:02 on Mar 29,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of fifo_tb.v failed with 3 errors.
+# Compile of fifo_tb.v failed with 3 errors.
+# Compile of fifo_tb.v was successful.
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 15:47:12 on Mar 29,2024
+# Loading sv_std.std
+# Loading work.fifo_tb
+# Loading work.synchronous_fifo
+add wave -position insertpoint sim:/fifo_tb/*
+run
+quit -sim
+# End time: 15:48:15 on Mar 29,2024, Elapsed time: 0:01:03
+# Errors: 0, Warnings: 4
+# Compile of fifo_tb.v was successful.
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 15:48:47 on Mar 29,2024
+# Loading sv_std.std
+# Loading work.fifo_tb
+# Loading work.synchronous_fifo
+add wave -position insertpoint sim:/fifo_tb/*
+run
+quit -sim
+# End time: 15:50:42 on Mar 29,2024, Elapsed time: 0:01:55
+# Errors: 0, Warnings: 2
+# Compile of fifo_tb.v failed with 5 errors.
+# Compile of fifo_tb.v failed with 5 errors.
+# Compile of fifo_tb.v was successful.
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 16:00:19 on Mar 29,2024
+# Loading sv_std.std
+# Loading work.fifo_tb
+# Loading work.synchronous_fifo
+add wave -position insertpoint sim:/fifo_tb/*
+run
+quit -sim
+# End time: 16:05:39 on Mar 29,2024, Elapsed time: 0:05:20
+# Errors: 0, Warnings: 4
+add wave -position insertpoint pop_data
+# Compile of fifo_tb.v was successful.
+# Compile of synchronous_fifo.v was successful.
+# Compile of fifo_tb.v was successful.
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 16:06:01 on Mar 29,2024
+# Loading sv_std.std
+# Loading work.fifo_tb
+# Loading work.synchronous_fifo
+add wave -position insertpoint sim:/fifo_tb/*
+run
+quit -sim
+# End time: 16:11:24 on Mar 29,2024, Elapsed time: 0:05:23
+# Errors: 0, Warnings: 4
+# Compile of synchronous_fifo.v was successful.
+# Compile of fifo_tb.v was successful.
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 21:11:46 on Mar 29,2024
+# Loading sv_std.std
+# Loading work.fifo_tb
+# Loading work.synchronous_fifo
+add wave -position insertpoint sim:/fifo_tb/*
+run
+quit -sim
+# End time: 21:16:21 on Mar 29,2024, Elapsed time: 0:04:35
+# Errors: 0, Warnings: 3
+# Compile of synchronous_fifo.v was successful.
+# Compile of fifo_tb.v was successful.
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 21:18:00 on Mar 29,2024
+# Loading sv_std.std
+# Loading work.fifo_tb
+# Loading work.synchronous_fifo
+add wave -position insertpoint sim:/fifo_tb/*
+run
+quit -sim
+# End time: 21:20:56 on Mar 29,2024, Elapsed time: 0:02:56
+# Errors: 0, Warnings: 3
+# Compile of fifo_tb.v was successful.
+# Compile of synchronous_fifo.v failed with 1 errors.
+# Compile of synchronous_fifo.v was successful.
+# Compile of fifo_tb.v was successful.
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 21:21:33 on Mar 29,2024
+# Loading sv_std.std
+# Loading work.fifo_tb
+# Loading work.synchronous_fifo
+add wave -position insertpoint sim:/fifo_tb/*
+run
+run
+run
+quit -sim
+# End time: 21:27:25 on Mar 29,2024, Elapsed time: 0:05:52
+# Errors: 0, Warnings: 5
+# Compile of synchronous_fifo.v was successful.
+# Compile of fifo_tb.v was successful.
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 21:32:12 on Mar 29,2024
+# Loading sv_std.std
+# Loading work.fifo_tb
+# Loading work.synchronous_fifo
+add wave -position insertpoint sim:/fifo_tb/*
+run
+run
+run
+quit -sim
+# End time: 21:33:52 on Mar 29,2024, Elapsed time: 0:01:40
+# Errors: 0, Warnings: 3
+# Compile of synchronous_fifo.v was successful.
+# Compile of fifo_tb.v was successful.
+# Compile of synchronous_fifo.v was successful.
+# Compile of fifo_tb.v was successful.
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 21:38:19 on Mar 29,2024
+# Loading sv_std.std
+# Loading work.fifo_tb
+# Loading work.synchronous_fifo
+add wave -position insertpoint sim:/fifo_tb/*
+run
+quit -sim
+# End time: 21:39:56 on Mar 29,2024, Elapsed time: 0:01:37
+# Errors: 0, Warnings: 5
+# Compile of fifo_tb.v was successful.
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 21:40:45 on Mar 29,2024
+# Loading sv_std.std
+# Loading work.fifo_tb
+# Loading work.synchronous_fifo
+add wave -position insertpoint sim:/fifo_tb/*
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 21:41:38 on Mar 29,2024, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 2
+# Compile of synchronous_fifo.v was successful.
+# Compile of fifo_tb.v was successful.
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 21:47:04 on Mar 29,2024
+# Loading sv_std.std
+# Loading work.fifo_tb
+# Loading work.synchronous_fifo
+add wave -position insertpoint sim:/fifo_tb/*
+run
+quit -sim
+# End time: 21:47:35 on Mar 29,2024, Elapsed time: 0:00:31
+# Errors: 0, Warnings: 3
+# Compile of fifo_tb.v was successful.
+vsim work.fifo_tb
+# vsim work.fifo_tb 
+# Start time: 21:49:04 on Mar 29,2024
+# Loading sv_std.std
+# Loading work.fifo_tb
+# Loading work.synchronous_fifo
+add wave -position insertpoint sim:/fifo_tb/*
+run
+run
+quit -sim
+# End time: 21:51:18 on Mar 29,2024, Elapsed time: 0:02:14
+# Errors: 0, Warnings: 2
